@@ -1,0 +1,2 @@
+# Armature-Bone-Name-Mapper
+Blenderアーマチュアのボーン名を別のアーマチュアに合わせて一括リネームするアドオン
