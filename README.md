@@ -9,6 +9,12 @@ Blenderアーマチュアのボーン名を別のアーマチュアに合わせ�
 - 検索フィルタ: ソース名 / ターゲット名の両方で絞り込み
 - ソート: Source / Target / 階層 / 階層(シンプル)
 - 一括適用: マッピング結果でリネーム実行
+## インストール
+1. Blender を起動
+2. Edit > Preferences > Add-ons
+3. Install... から `Armature Bone Name Mapper.py` を選択
+4. チェックを入れて有効化
+5. 3D Viewport の N パネル「Bone Mapper」タブに表示されます
 ## 使い方
 1. Source Armature と Target Armature を指定
 2. Generate Mapping を押す
@@ -16,12 +22,6 @@ Blenderアーマチュアのボーン名を別のアーマチュアに合わせ�
 4. 必要なら手動修正
 5. Apply Mapping でソースのボーンをリネーム
 
-## インストール
-1. Blender を起動
-2. Edit > Preferences > Add-ons
-3. Install... から `Armature Bone Name Mapper.py` を選択
-4. チェックを入れて有効化
-5. 3D Viewport の N パネル「Bone Mapper」タブに表示されます
 ## ソートモード
 - Source Name: ソース名アルファベット順
 - Target Name: ターゲット名アルファベット順
@@ -104,4 +104,5 @@ part_mapping = {
 用途に合わせて自由に改変可能です。バグ報告や要望は Issues へ。
 
 ---
+
 改善提案歓迎。
